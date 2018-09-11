@@ -10,3 +10,6 @@ function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
   return object
 }
 
+destructivelyUpdateObjectWithKeyAndValue(recipes, 'prop', '1')
+destructivelyUpdateObjectWithKeyAndValue(recipes, 'prop2', '2')
+
