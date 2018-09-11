@@ -27,5 +27,6 @@ function destructivelyDeleteFromObjectByKey(object, key) {
  }
  
 function destructivelyDeleteFromObjectByKey(object, key) {
-  
+  var recipes = { prop : 1 }
+  delete recipes.
 }
