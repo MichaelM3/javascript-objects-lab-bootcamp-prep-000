@@ -7,5 +7,5 @@ function updateObjectWithKeyAndValue(object, key, value) {
 
 function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
   var recipes = { prop: 1 }
-  return recipes.prop
+  return recipes.prop2 = 2
 }
